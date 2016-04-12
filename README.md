@@ -35,6 +35,10 @@ Usage
 ### sender side: /dev/pts/4 -> rtp:localhost:1234
     $ ptssend
     (/dev/pts/4)
-    $ rtpsend /dev/pts/4 localhost 1234
+    $ rtpsend /dev/pts/4 localhost 1234 --with-jitter 500
+
+Bugs
+----
+Not tested at real S.Bus devices.
 
 Air
